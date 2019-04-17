@@ -1,0 +1,10 @@
+.mypy_cache
+.coverage
+_build
+.DS_Store
+.vscode
+.tox
+__pycache__
+build/
+dist/
+pip-wheel-metadata/

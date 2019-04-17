@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "{{cookiecutter.app_name | replace('_', '-')}}",
+  "builds": [
+    {
+      "src": "*.py",
+      "use": "@now/python",
+      "config": { "maxLambdaSize": "5mb" }
+    }
+  ]
+}

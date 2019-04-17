@@ -1,0 +1,12 @@
+tests/
+*venv/
+dev-requirements.txt
+.gitignore
+pyproject.toml
+.git
+.pre-commit-config.yaml
+*.ini
+.editorconfig
+README.md
+__pycache__
+.pytest_cache
